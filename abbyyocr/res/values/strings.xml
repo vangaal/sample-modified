@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<!-- Preferences labels -->
+	<string name="preference_label_category_recognition_languages">Pilihan Bahasa</string>
+	<string name="preference_label_category_recognition_mode">recognition mode</string>
+	<string name="preference_label_category_image_processing_options">Pilihan pengaturan gambar</string>
+	<string name="preference_label_recognition_languages_ocr">Recognition languages</string>
+	<string name="preference_title_recognition_languages_ocr">Bahasa OCR</string>
+	<string name="preference_dialog_recognition_languages_ocr">Bahasa OCR</string>
+	<string name="preference_summary_recognition_languages_ocr">Tentukan bahasa yang digunakan untuk pengenalan teks.</string>
+	<string name="preference_summary_confidence_level">Tentukan confidence level.</string>
+	<string name="preference_title_recognition_languages_bcr">BCR languages</string>
+	<string name="preference_dialog_recognition_languages_bcr">BCR languages</string>
+	<string name="preference_summary_recognition_languages_bcr">Specify which languages should be used for BCR recognition.</string>
+	<string name="preference_label_recognition_mode_full">cepat</string>
+	<string name="preference_label_detect_page_orientation">Deteksi orientasi gambar</string>
+	<string name="preference_label_prebuild_words_info">Prebuild words info</string>
+	<string name="preference_label_build_words_info">Build words info</string>
+	<string name="preference_confidence_level">Confidence level</string>
+	<!-- Error messages -->
+	<string name="dialog_error">Error</string>
+	<string name="error_bad_license">Bad license.</string>
+	<string name="error_no_permanent_data">No permanent data for recognition. European patterns, english dictionaries and keywords must be present.</string>
+	<string name="error_loading_image">gagal menampilkan gambar</string>
+	<!-- Standard buttons captions -->
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Batal</string>
+	<string name="button_yes">Ya</string>
+	<string name="button_no">Tidak</string>
+	<string name="button_close">Tutup</string>
+	<!-- Main activity labels -->
+	<string name="button_image_source">Pilih Gambar</string>
+	<string name="button_preferences">Pengaturan</string>
+	<string name="button_recognize">Kenali Teks</string>
+	<string name="button_recognize_bcr">Recognize BCR</string>
+	<string name="button_recognize_barcode">Recognize Barcode</string>
+	<string name="dialog_image_source">Pilih Sumber Gambar</string>
+	<string name="radio_from_resources">Dari Resources</string>
+	<string name="radio_from_gallery">Dari Gallery</string>
+	<string name="radio_from_camera">Dari Kamera</string>
+</resources>

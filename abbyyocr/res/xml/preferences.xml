@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+		android:title="@string/preference_label_category_recognition_languages">
+		<!-- android:dependency="@string/pref_auto_scan_image" -->
+		<com.example.abbyyocr.sample.ListPreferenceMultiSelect android:defaultValue="Indonesian"
+		    android:key="@string/key_recognition_languages_ocr"
+		    android:title="@string/preference_title_recognition_languages_ocr"
+		    android:dialogTitle="@string/preference_dialog_recognition_languages_ocr"
+		    android:summary="@string/preference_summary_recognition_languages_ocr"
+		    android:entries="@array/pref_recognition_languages_ocr_default_entries"
+		    android:entryValues="@array/pref_recognition_languages_ocr_default_values" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/preference_label_category_recognition_mode">
+		<CheckBoxPreference
+			android:key="@string/key_recognition_mode_full"
+			android:title="@string/preference_label_recognition_mode_full"
+			android:defaultValue="false"/>
+		<ListPreference
+            android:key="@string/key_recognition_level"
+            android:entries="@array/pref_recognition_level_entries"
+            android:summary="@string/preference_summary_confidence_level"
+            android:entryValues="@array/pref_recognition_level_values"
+            android:title="@string/preference_confidence_level" />
+                    
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/preference_label_category_image_processing_options">
+		<CheckBoxPreference
+			android:key="@string/key_detect_page_orientation"
+			android:title="@string/preference_label_detect_page_orientation"
+			android:defaultValue="true"/>
+	</PreferenceCategory>
+</PreferenceScreen>

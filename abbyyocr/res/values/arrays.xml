@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="pref_recognition_languages_ocr_default_entries">
+		<item>English</item>
+		<item>Indonesian</item>
+	</string-array>
+	<string-array name="pref_recognition_languages_ocr_default_values">
+		<item>English</item>
+		<item>Indonesian</item>
+	</string-array>	
+	<string-array name="pref_recognition_level_entries">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	<string-array name="pref_recognition_level_values">
+		<item>LEVEL0</item>
+		<item>LEVEL1</item>
+		<item>LEVEL2</item>
+		<item>LEVEL3</item>
+		<item>LEVEL4</item>
+	</string-array>	
+</resources>
